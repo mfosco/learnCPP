@@ -185,6 +185,7 @@ uninstall:
 	@$(RM) $(DESTDIR)$(INSTALL_PREFIX)/bin/$(BIN_NAME)
 
 # removes all build files
+
 .PHONY: clean
 clean:
 	@echo "Deleting $(BIN_NAME) symlink"
@@ -193,7 +194,7 @@ clean:
 	@$(RM) -r build
 	@$(RM) -r bin
 
-#Mian rule, checkes executable and symlinks to output
+#Main rule, checkes executable and symlinks to output
 all: $(BIN_PATH)/$(BIN_NAME)
 	@echo "Making symlink: $(BIN_NAME) -> $<"
 	@$(RM) $(BIN_NAME)

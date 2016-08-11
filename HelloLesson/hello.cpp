@@ -1,13 +1,18 @@
 #include <iostream>
+#include "add.h"
 
 void doPrint() {
     std::cout << "In doPrint\n";
 }
 
+//int add(int x, int y);
+
+//void testLink();
+
 //Add 2 numbers together
-int add(int x, int y) {
+/*int add(int x, int y) {
     return x + y;
-}
+}*/
 
 // Basic Hello World program
 int main()
@@ -21,6 +26,8 @@ int main()
     //cout << "Enter value for x: ";
     //read input from user:
     doPrint();
+    cout << add(5,4) << std::endl;
+    testLink();
     //std::cin >> x;
     //cout << "You entered: " << x << "\n";
     /* This is a mulit-line
