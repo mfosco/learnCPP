@@ -1,3 +1,8 @@
+/*
+ * Michael Fosco
+ * Chapter 1 of learnCPP
+ */
+
 #include <iostream>
 #include "add.h"
 
