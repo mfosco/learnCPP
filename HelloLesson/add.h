@@ -1,3 +1,5 @@
+//Below is what is known as a header guard
+
 #ifndef ADD_H
 #define ADD_H
 
