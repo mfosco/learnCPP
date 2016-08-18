@@ -15,7 +15,7 @@ SRC_PATH = .
 LIBS = 
 
 #general compile flags
-COMPILE_FLAGS = -Wall -Werror -g -O
+COMPILE_FLAGS = -Wall -g -O
 
 #Additional release-specific flags
 RCOMPILE_FLAGS = -D NDEBUG
