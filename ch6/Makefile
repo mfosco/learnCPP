@@ -4,6 +4,7 @@
 BIN_NAME := ch6 
 # Compiler used
 CXX ?= g++
+STD = -std=c++11
 
 #Extension of source files used in project
 SRC_EXT = cpp
@@ -15,7 +16,7 @@ SRC_PATH = .
 LIBS = 
 
 #general compile flags
-COMPILE_FLAGS = -Wall -g -O
+COMPILE_FLAGS = $(STD) -Wall -g -O 
 
 #Additional release-specific flags
 RCOMPILE_FLAGS = -D NDEBUG
